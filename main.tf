@@ -16,5 +16,5 @@ output "my_resource" {
 }
 
 output "pet" {
-  value = random_pet.this.result
+  value = random_pet.this.id
 }
